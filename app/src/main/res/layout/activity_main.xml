@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.ranubharadwaj.languageconvert.MainActivity">
+
+
+
+    <Button
+        android:text="Phrase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#c2d0dc"
+        android:layout_alignParentStart="true"
+        android:onClick="openPhraseList"
+        android:id="@+id/bPhrase" />
+
+    <Button
+        android:text="Colour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bPhrase"
+        android:background="#ffd785"
+        android:onClick="openColourList"
+        android:id="@+id/bColour" />
+
+    <Button
+        android:text="Family"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bColour"
+        android:background="#ddaaff"
+        android:onClick="openFamilyList"
+        android:id="@+id/bFamily" />
+
+    <Button
+        android:text="Number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bFamily"
+        android:background="#fdaa9c"
+        android:onClick="openNumberList"
+        android:id="@+id/bNumber" />
+</RelativeLayout>
